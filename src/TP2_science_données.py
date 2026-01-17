@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # Chargement du CSV
-df = pd.read_csv("/Users/abdellahhailal/PycharmProjects/Projet_Science/data/villes.csv", quotechar='"', sep=",", engine="python")
+df = pd.read_csv("/Users/abdellahhailal/PycharmProjects/city-data-analysis/data/villes.csv", quotechar='"', sep=",", engine="python")
 
 # Afficher les premières lignes
 print(df.head(10))
@@ -70,7 +70,7 @@ print()
 print("---------------Étape: 5-----------------")
 
 # Lire le shapefile sans afficher les multipolygon
-pays_gdf = gpd.read_file("/Users/abdellahhailal/PycharmProjects/Projet_Science/data/pays.shp")
+pays_gdf = gpd.read_file("/Users/abdellahhailal/PycharmProjects/city-data-analysis/data/pays.shp")
 
 # Définir la projection manquante
 pays_gdf = pays_gdf.set_crs("EPSG:4326")
