@@ -1,23 +1,24 @@
 # City Data Analysis
 
 ## Description
-Analysis of geographical datasets to compare population, density, and economic indicators across different cities.
+Analyse de jeux de données géographiques pour comparer la population, la densité et des indicateurs économiques entre différentes villes.
 
-## Objectives
-- Clean and preprocess geographical data
-- Analyze population and economic indicators
-- Identify trends and patterns across cities
-- Visualize results using Python
+## Objectifs
+- Nettoyer et préparer les données
+- Analyser les indicateurs démographiques et économiques
+- Identifier des tendances et des patterns
+- Visualiser les résultats avec Python
 
-## Tools & Technologies
+## Outils & technologies
 - Python
 - Pandas
 - NumPy
 - Matplotlib
+- GeoPandas
 
-## Project Structure
-- src/: data processing and analysis scripts
-- data/: datasets used for analysis
+## Structure du projet
+- src/ : scripts de traitement et d’analyse
+- data/ : jeux de données (si applicable)
 
-## Author
+## Auteur
 Abdellah Hailal
